@@ -1,0 +1,23 @@
+{
+  "members": [
+    {
+      "name": "Molecule Man",
+      "age": 29,
+      "secretIdentity": "Dan Luke",
+      "powers": [
+        "Radiation Resistance",
+        "Turning Tiny",
+        "Radiation Blast"
+      ]
+    },
+    {
+      "name": "Molecule Woman",
+      "age": 28,
+      "secretIdentity": "Danesse Lukia",
+      "powers": [
+        "Radiation Resistance",
+        "Radiation Blast"
+      ]
+    }
+  ]
+}
