@@ -1,0 +1,20 @@
+.container{
+    margin: auto;
+    width: 500px;
+    height: 100px;
+    background-color: aqua;
+}
+.container p{
+    margin: auto;
+    text-align: center;
+}
+#hide{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+#show{
+    margin: 200px auto auto;
+    justify-content: center;
+    display: flex;
+}
