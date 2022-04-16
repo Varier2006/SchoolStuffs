@@ -1,31 +1,28 @@
-function hideDiv(){
+function hideTopDiv(){
     let container = document.querySelector(".container")
     container.style.display="none"
-    let button = document.querySelector("#show")
+    let button = document.querySelector("#buttonShowTopDiv")
     button.style.display="block"
 }
-function executeByButton() {
-    let button = document.getElementById("hide")
+function executeButtonReadJson() {
+    let button = document.getElementById("buttonReadJson")
     button.addEventListener("click", readJson)
 }
-executeByButton()
 
-function executeByButton1() {
-    let button = document.getElementById("show")
-    button.addEventListener("click", showDiv)
+function executeButtonShowTopDiv() {
+    let button = document.getElementById("buttonShowTopDiv")
+    button.addEventListener("click", showTopDiv)
 }
-executeByButton1()
 
 function divDragging() {
-    let nieco = document.getElementById("niecoa")
-    nieco.addEventListener("drag", hideDiv)
+    let div = document.getElementById("topDiv")
+    div.addEventListener("drag", hideTopDiv)
 }
-divDragging()
 
-function showDiv(){
+function showTopDiv(){
     let container = document.querySelector(".container")
     container.style.display="block"
-    let button = document.querySelector("#show")
+    let button = document.querySelector("#buttonShowTopDiv")
     button.style.display="none"
 }
 
@@ -50,3 +47,6 @@ function readJson(){
         }))
     })
 }
+executeButtonReadJson()
+divDragging()
+executeButtonShowTopDiv()

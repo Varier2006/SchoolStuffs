@@ -8,12 +8,12 @@
     margin: auto;
     text-align: center;
 }
-#hide{
+#buttonReadJson{
     margin: auto;
     display: flex;
     justify-content: center;
 }
-#show{
+#buttonShowTopDiv{
     margin: 200px auto auto;
     justify-content: center;
     display: flex;
