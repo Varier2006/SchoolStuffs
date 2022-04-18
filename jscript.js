@@ -27,9 +27,6 @@ function showTopDiv(){
     button.style.display="none"
 }
 function themeSwitch(){
-    // Obtains an array of all <link>
-    // elements.
-    // Select your element using indexing.
     let theme = document.getElementsByTagName('link')[0];
     if (theme.getAttribute('href') === 'light.css') {
         theme.setAttribute('href', 'dark.css');
