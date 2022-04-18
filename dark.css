@@ -1,8 +1,15 @@
+.background {
+    margin: -8px;
+    padding: 8px;
+    height: auto;
+    width: auto;
+    background-color: #21252b;
+}
 .container{
     margin: auto;
     width: 500px;
     height: 100px;
-    background-color: aqua;
+    background-color: #006f6f;
 }
 .container p{
     margin: auto;
@@ -14,6 +21,11 @@
     justify-content: center;
 }
 #buttonShowTopDiv{
+    margin: 200px auto auto;
+    justify-content: center;
+    display: flex;
+}
+#buttonThemeToggle{
     margin: 200px auto auto;
     justify-content: center;
     display: flex;

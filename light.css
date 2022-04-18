@@ -1,0 +1,31 @@
+.background {
+    margin: -8px;
+    padding: 8px;
+    height: auto;
+    width: auto;
+}
+.container{
+    margin: auto;
+    width: 500px;
+    height: 100px;
+    background-color: aqua;
+}
+.container p{
+    margin: auto;
+    text-align: center;
+}
+#buttonReadJson{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+#buttonShowTopDiv{
+    margin: 200px auto auto;
+    justify-content: center;
+    display: flex;
+}
+#buttonThemeToggle{
+    margin: 200px auto auto;
+    justify-content: center;
+    display: flex;
+}
